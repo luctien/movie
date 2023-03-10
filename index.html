@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Film</title>
+
+  <!-- Import fontawesome -->
+  <link rel="stylesheet" href="./lib/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="./lib/fontawesome/css/brands.min.css">
+  <link rel="stylesheet" href="./lib/fontawesome/css/solid.min.css">
+
+  <!-- Import bootstrap CSS core-->
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+
+  <!-- Import css -->
+  <link rel="stylesheet" href="./asstes/css/main.css">
+
+</head>
+
+<body>
+
+  <!-- Header./Start -->
+  <div class="header-main">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-sm-2 col-md-2">
+          <div class="logo">
+            <img src="./asstes/images/logo1.png" />
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-10 col-md-10">
+          <!-- Menu-desktop -->
+          <ul class="menu-main">
+            <li>Trang chu</li>
+            <li>Phim dang chieu</li>
+            <li>Lich chieu</li>
+            <li>Phim hoan thanh</li>
+            <li>Phim sap hoan thanh</li>
+          </ul>
+
+          <!-- button Mobile -->
+          <div class="wrap-btn">
+            <Button class="btn-mobile-open"><i class="fa-solid fa-bars"></i></Button>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12">
+
+          <form class="form">
+            <input type="text" class="input-form" placeholder="Search" />
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="listing-product">
+    <div class="container">
+      <div class="row">
+      </div>
+    </div>
+  </div>
+
+  <div class="pagi-listing">
+    <button class="pagi-button btn-pre">
+      Pre Page
+    </button>
+    <button class="pagi-button btn-next">
+      Next Page
+    </button>
+  </div>
+
+
+  <!-- Menu Tablet + Mobile -->
+
+  <div id="wrap-mobile">
+    <button class="btn-close">X</button>
+    <ul class="menu-mobile">
+      <li>Trang chu</li>
+      <li>Phim dang chieu</li>
+      <li>Lich chieu</li>
+      <li>Phim hoan thanh</li>
+      <li>Phim sap hoan thanh</li>
+    </ul>
+  </div>
+
+  <!-- Import axios -->
+  <script src="./lib/axios.min.js"></script>
+
+  <!-- Import js bootstrap -->
+  <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Import js main -->
+  <script src="./asstes/js/main.js"></script>
+</body>
+
+</html>
